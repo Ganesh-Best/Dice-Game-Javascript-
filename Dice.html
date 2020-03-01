@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dice Game :</title>
+   
+
+    
+    <link rel="stylesheet" href="Css/Dice.css">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+   
+     <div class = "Box ">
+           
+        <h1 class="display-4 " id ="Header">Let's Play :</h1>
+
+        <div class="diceRow1"> 
+           
+             <div class="YouBox">
+                <h2>You : <span id = "youResult">0</span> </h2>
+                <img src="Assets/start.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} rounded" alt="Dice_image"> 
+             </div>
+             <div class="BotBox">
+                <h2>Bot  : <span id="botResult">0</span> </h2> 
+                <img src="Assets/start.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} rounded" alt="Dice_image">
+             </div>
+
+
+        </div>
+        <div class="diceRow2">
+              <div>
+                     <button class="btn btn-lg btn-danger px-4 mr-3" id="dicePlay">Play</button>
+                     <button class="btn btn-lg btn-success">Restart</button>
+               </div>
+        </div>
+
+
+     </div>
+
+    <script src="Script/Dice.js"></script>
+</body>
+</html>
