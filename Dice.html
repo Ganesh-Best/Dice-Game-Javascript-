@@ -31,11 +31,11 @@
 
         <div class="diceRow1"> 
            
-             <div class="YouBox">
-                <h2>You : <span id = "youResult">0</span> </h2>
+             <div id="youBox">
+                <h2>You : <span id = "yourResult">0</span> </h2>
                 <img src="Assets/start.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} rounded" alt="Dice_image"> 
              </div>
-             <div class="BotBox">
+             <div id="botBox">
                 <h2>Bot  : <span id="botResult">0</span> </h2> 
                 <img src="Assets/start.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} rounded" alt="Dice_image">
              </div>
@@ -45,7 +45,7 @@
         <div class="diceRow2">
               <div>
                      <button class="btn btn-lg btn-danger px-4 mr-3" id="dicePlay">Play</button>
-                     <button class="btn btn-lg btn-success">Restart</button>
+                     <button class="btn btn-lg btn-success" id = "diceReset">Restart</button>
                </div>
         </div>
 
