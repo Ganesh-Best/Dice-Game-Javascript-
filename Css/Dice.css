@@ -21,4 +21,9 @@ body{
 .diceRow1 div{
     border:1px solid white;
     padding:20px;
+
+}
+.diceRow1 div img{
+    width:100%;
+    height:auto;
 }
