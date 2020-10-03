@@ -1,20 +1,21 @@
-#Concept I used in this project :
+#Concept I have used in this project :
 
-->HTML5
+-> HTML5 :
 
- -Divs
- -buttons
+ - Divs
+ - Buttons
  
-->CSS
+->CSS :
 
   - Basic Css
   - Flex Box
   
-->Javascript
+->Javascript :
   
-  -Functional Programming
-  -Objects[ generally Used for Look-up Values]
-  -Audio Objects
+  - Functional Programming
+  - Objects[ generally Used for Look-up Values]
+  - Audio Objects
+  
 ->Bootstrap 4 :
  
- - I used little bit Bootstrap 4 ,don't worry I metioned it on Html file:
+ - I used little bit Bootstrap 4 ,don't worry I mentioned it on Html file:
